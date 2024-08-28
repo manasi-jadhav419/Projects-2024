@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up Page</title>
+        <style>
+             body{
+             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             background-image: url(foodwallpaper4.jpg);
+             height: 100vh;
+             background-size: cover;
+             background-position: center;
+             padding: 50px;
+             }
+            form{
+             max-width: 300px;
+             margin: 0 auto;
+             margin-top: 5%;
+             background-image: url(back3.jpg);
+             background-size: cover;
+             padding: 40px;
+             border-radius: 15px;
+             border-style: inherit;
+             box-shadow: 0 4px 8px #1a1418e6;
+             align-content: center;   
+            } 
+            .form-group{
+             margin-bottom: 20px;
+            }
+            label{
+             display:block;
+             font-weight: bold;
+             margin-bottom: 20px;
+             font-style: normal;
+             color: rgb(82, 53, 131);       
+            }
+            input[type="submit"]{
+             width: 100%;
+             background-color: #4CAF50;
+             color:wheat;
+             padding: 10px 0;
+             border: none;
+             border-radius: 5px;
+             cursor: pointer;
+            }
+            input[type="submit"]:hover{
+            background-color:blueviolet;
+            }
+        
+        </style>
+
+</head>
+    <body>
+        <form>
+            <h3 style="color: rgb(198, 32, 46); text-align: center; text-decoration: underline; font-size:x-large; font-style: italic;"> Welcome to Sign-up Page</h3>
+            <div class="form-group"> 
+                <label for="name"> First Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your First name">
+            </div>
+
+            <div class="form-group"> 
+                <label for="name"> Last Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Last Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email ID">
+            </div>
+
+            <div class="form-group">
+                <label for="mobile no.">Mobile number:</label>
+                <input type="mobile no." id="mobile no." name="mobile no." placeholder="Enter your mobile number">
+             </div>
+
+             <div class="form-group">
+                <label for="password"> Set Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+             </div>
+
+             <div class="form-group">
+                <label for="password"> Re-Enter Password:</label>
+                <input type="password" id="password" name="password" placeholder="Re-Enter password">
+             </div>
+
+             <button type="signin">Sign In</button>
+
+             <p>Already Have An Account?<a href="Loginpage.html">Login here</a></p>
+        </form>
+       
+    </body>
+</html>
